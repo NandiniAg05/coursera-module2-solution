@@ -1,0 +1,98 @@
+
+
+body{
+    font-family: 'Lato';
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-weight: 700;
+}
+
+.element{
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(185, 183, 183);
+    position: relative;
+}
+
+.head{
+    border: 1px solid black;
+    width: 30%;
+    margin-left: 69.5%;
+    height: 25px;
+    text-align: center;
+    border-top: 0;
+    position: absolute;
+}
+
+.head >p{
+    padding-top: 4px;
+    font-weight: 400;
+}
+
+.food-name{
+    /* padding-bottom: 10px; */
+    margin: 0;
+}
+
+.desc{
+    padding-inline: 5px;
+    padding-top: 20px;
+}
+
+.beef{
+    background-color: rgb(187, 4, 4);
+    color:  white;
+}
+
+.chicken{
+    background-color: #D59898;
+}
+
+.sushi{
+    background-color: rgb(220, 233, 102);
+}
+
+.ea{
+    width: 31%;
+    float: left;
+}
+
+.ec{
+    width: 31%;
+    float: left;
+}
+
+@media only screen and (min-width: 768px ) and (max-width: 991px) {
+    .ea{
+        width: 47%;
+        float: left;
+    }
+
+    .ec{
+        width: 97%;
+        float: left;
+    }
+
+    h1{
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ea{
+        width: 96%;
+        float: left;
+    }
+    .ec{
+        width: 96%;
+        float: left;
+    }
+    
+    h1{
+        margin-bottom: 10px;
+    }
+}
